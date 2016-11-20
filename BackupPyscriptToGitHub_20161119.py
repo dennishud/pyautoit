@@ -37,7 +37,7 @@ def LoginGitHub(driver,URL):
     driver.find_element_by_xpath(xPath).send_keys("YourOnlineAccount@outlook.com")
 
     xPath = "//input[@id='password']"
-    driver.find_element_by_xpath(xPath).send_keys("Aa7788250")
+    driver.find_element_by_xpath(xPath).send_keys("PWD")
 
     xPath = "//input[@type='submit']"
     driver.find_element_by_xpath(xPath).click()
